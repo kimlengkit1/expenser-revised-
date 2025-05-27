@@ -1,4 +1,4 @@
-import { Text, View } from "react-native";
+import { Text, View, Button } from "react-native";
 import '../global.css';
 
 export default function Index() {
@@ -10,7 +10,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text>You shouldn't be on this screen.</Text>
     </View>
   );
 }
